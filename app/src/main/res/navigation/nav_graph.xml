@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/navigation_translator">
+
+    <fragment
+        android:id="@+id/navigation_translator"
+        android:name="com.example.kotlinmorse.fragments.TranslatorFragment"
+        android:label="@string/translator" />
+
+    <fragment
+        android:id="@+id/navigation_settings"
+        android:name="com.example.kotlinmorse.fragments.SettingsFragment"
+        android:label="@string/settings" />
+
+    <fragment
+        android:id="@+id/navigation_dictionary"
+        android:name="com.example.kotlinmorse.fragments.DictionaryFragment"
+        android:label="@string/dictionary" />
+
+</navigation>
