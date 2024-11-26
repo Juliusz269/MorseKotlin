@@ -1,6 +1,8 @@
-
 // utils/PlaybackSpeedManager.kt
-package com.example.morsecodetranslator.utils
+package com.example.kotlinmorse.utils
+
+import android.content.Context
+import android.content.SharedPreferences
 
 class PlaybackSpeedManager(private val context: Context) {
     private var listeners = mutableListOf<(Float) -> Unit>()
